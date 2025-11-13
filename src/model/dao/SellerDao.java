@@ -19,4 +19,7 @@ public interface SellerDao {
 		
 	//retornar todos os departamentos
 	List<Seller> findAll();
+	
+	//buscar por departamento
+	List<Seller> findByDepartment(Department department);
 }
